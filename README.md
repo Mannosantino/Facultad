@@ -20,4 +20,4 @@ Los repositorios originales se conservan con su historial de commits. El reposit
 
 ## Respaldos incorporados
 
-Los ejercicios y trabajos anteriores se conservan dentro de `ejercicios-uva`, `poo-grupal`, `excepciones-java`, `sistema-stock` y `otros`, cada uno en una subcarpeta con el nombre de su repositorio original.
+Los ejercicios y trabajos anteriores se conservan dentro de `ejercicios-uva`, `poo-grupal`, `excepciones-java`, `sistema-stock`, cada uno en una subcarpeta con el nombre de su repositorio original.

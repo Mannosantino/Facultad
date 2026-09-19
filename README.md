@@ -2,10 +2,18 @@
 
 Trabajos prácticos y proyectos académicos organizados por materia.
 
-## Estructura
+## Contenido
 
-- **diseño-y-desarrollo-web:** ejercicios, prácticas y trabajos integradores de HTML, CSS y JavaScript.
-- **programacion-1:** sistema de gestión de stock y procesamiento de archivos.
-- **paradigma-orientado-a-objetos:** proyectos y ejercicios desarrollados en Java.
+- [Diseño y Desarrollo Web](diseno-y-desarrollo-web/)
+  - [Portfolio médico](diseno-y-desarrollo-web/portfolio-medico/)
+  - [Ejercicios UVA](diseno-y-desarrollo-web/ejercicios-uva/): UVA 1, UVA 2 y prácticas de JavaScript.
+- [Paradigma Orientado a Objetos](paradigma-orientado-a-objetos/)
+  - [POO grupal](paradigma-orientado-a-objetos/poo-grupal/)
+  - [POO individual](paradigma-orientado-a-objetos/poo-individual/)
+  - [Excepciones Java](paradigma-orientado-a-objetos/excepciones-java/)
+- [Programación 1](programacion-1/)
+  - [Sistema de stock](programacion-1/sistema-stock/)
 
-Los repositorios originales se conservan como respaldo y para mantener su historial de commits.
+Los proyectos de Marelí Pastelería, Sembrando Paisajismo y Feria Sustentable están en [Proyectos](https://github.com/Mannosantino/Proyectos).
+
+Los repositorios originales se conservan con su historial de commits. El repositorio original de POO individual está vacío; su carpeta queda preparada para incorporar el trabajo.

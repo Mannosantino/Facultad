@@ -16,8 +16,4 @@ Trabajos prácticos y proyectos académicos organizados por materia.
 
 Los proyectos de Marelí Pastelería, Sembrando Paisajismo y Feria Sustentable están en [Proyectos](https://github.com/Mannosantino/Proyectos).
 
-Los repositorios originales se conservan con su historial de commits. El repositorio original de POO individual está vacío; su carpeta queda preparada para incorporar el trabajo.
 
-## Respaldos incorporados
-
-Los ejercicios y trabajos anteriores se conservan dentro de `ejercicios-uva`, `poo-grupal`, `excepciones-java`, `sistema-stock`, cada uno en una subcarpeta con el nombre de su repositorio original.

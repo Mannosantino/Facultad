@@ -1,0 +1,27 @@
+
+body {
+    background-color: dimgray;
+}
+
+.custom-list {
+    list-style-type: square;
+    padding-left: 20px;
+    color: white;
+}
+
+.custom-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.Foot {
+    clear: both;
+    text-align: left;
+}

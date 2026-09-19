@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="mensajeBienvenida" class="mensaje"></div>
+        
+        <form id="formularioDatos" class="formulario">
+            <h2>Ingrese sus datos personales</h2>
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" required>
+            </div>
+            <div class="campo">
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="mensajeDias" class="mensaje"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

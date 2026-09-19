@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+nav ul li a:hover {
+    color: #ff6f61; /* Color vibrante al pasar el mouse */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #35424a; /* Color del título */
+    font-size: 36px; /* Aumentar tamaño del título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra para el título */
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.imagen-perfil {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    border: 3px solid #35424a; /* Borde alrededor de la imagen */
+}
+
+.info-container {
+    max-width: 600px; /* Limita el ancho del texto */
+}
+
+.info-adicional {
+    font-size: 18px;
+    line-height: 1.6; /* Mejora la legibilidad */
+    color: #333; /* Color del texto */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; 
+    width: 80%; 
+    margin: 20px auto; 
+}
+
+.small-container {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.large-container {
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #35424a; 
+    color: #ffffff; 
+    text-align: left; 
+    padding: 10px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.avisos-sub, .materias-sub, .sobremi-sub, .contacto-sub {
+    text-align: left;
+    font-size: 35px;
+    color: #35424a; 
+}
+
+.lista-avisos, .lista-materias, .info-adicional {
+    font-size: 20px;
+}
+
+.menu {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.fechas-sub {
+    font-size: 20px;
+    padding: 35px;
+    margin: 20px;
+}
+
+a {
+    color: black; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: darkgray; 
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+
+.nro-curso {
+    text-align: center;
+}
+@media (max-width: 900px) {
+.container {
+    grid-template-columns: 1fr; 
+    width: 90%;     
+}
+nav ul li {
+    display: block; 
+    margin: 10px 0; 
+}
+.footer {
+    font-size: 20px; 
+}
+h1 {
+    font-size: 28px; 
+}
+.avisos-sub, .materias-sub, .sobremi-sub, .contacto-sub {
+    font-size: 30px; 
+}
+.fechas-sub {
+    font-size: 18px; 
+}
+form {
+    padding: 15px; 
+}
+input, textarea {
+    font-size: 14px; 
+}
+button {
+    padding: 8px 12px; 
+}
+
+}
+
+@media (max-width: 600px) { 
+.footer {
+    font-size: 16px; 
+}
+h1 {
+    font-size: 24px; 
+    }
+.avisos-sub, .materias-sub, .sobremi-sub, .contacto-sub {
+    font-size: 28px; 
+}
+.lista-avisos, .lista-materias, .info-adicional {
+    font-size: 18px; 
+    }
+form {
+    padding: 10px; 
+    }
+input, textarea {
+    font-size: 12px; 
+    }
+button {
+    padding: 6px 10px; 
+}
+
+}
